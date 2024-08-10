@@ -7,7 +7,7 @@ import { CartPageComponent } from './components/pages/cart-page/cart-page.compon
 import { LoginPageComponent } from './components/pages/login-page/login-page.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'search/:searchTerm', component: HomeComponent},
   {path: 'tag/:tag', component: HomeComponent},
   {path: 'food/:id', component: FoodPageComponent},
